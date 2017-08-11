@@ -1,0 +1,2452 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="AirSim" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\AirLib\;CMake Files\cmake-modules\;CMake Files\AirLibUnitTests\;CMake Files\rpclib_wrapper\;CMake Files\..\;CMake Files\..\external\;CMake Files\..\external\rpclib\;CMake Files\..\external\rpclib\cmake\;CMake Files\..\external\rpclib\include\;CMake Files\..\external\rpclib\include\rpc\;CMake Files\..\external\rpclib\doc\;CMake Files\..\external\rpclib\doc\pages\;CMake Files\..\qt_build\;CMake Files\MavLinkCom\;CMake Files\MavLinkCom\MavLinkTest\;CMake Files\HelloDrone\;CMake Files\DroneShell\;CMake Files\DroneServer\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="package_source">
+         <Option working_dir="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 package_source" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="package">
+         <Option working_dir="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 package" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="AirSim-rpclib">
+         <Option output="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/output/lib/libAirSim-rpclib.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/rpclib_wrapper/rpclib" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DRPCLIB_ARCH_X64" />
+            <Add option="-DASIO_STANDALONE" />
+            <Add option="-DRPCLIB_ASIO=clmdep_asio" />
+            <Add option="-DRPCLIB_FMT=clmdep_fmt" />
+            <Add option="-DRPCLIB_MSGPACK=clmdep_msgpack" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/rpclib_wrapper/rpclib/Makefile&quot;  VERBOSE=1 AirSim-rpclib" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/rpclib_wrapper/rpclib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/rpclib_wrapper/rpclib/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/rpclib_wrapper/rpclib/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="AirSim-rpclib/fast">
+         <Option output="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/output/lib/libAirSim-rpclib.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/rpclib_wrapper/rpclib" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DRPCLIB_ARCH_X64" />
+            <Add option="-DASIO_STANDALONE" />
+            <Add option="-DRPCLIB_ASIO=clmdep_asio" />
+            <Add option="-DRPCLIB_FMT=clmdep_fmt" />
+            <Add option="-DRPCLIB_MSGPACK=clmdep_msgpack" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/rpclib_wrapper/rpclib/Makefile&quot;  VERBOSE=1 AirSim-rpclib/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/rpclib_wrapper/rpclib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/rpclib_wrapper/rpclib/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/rpclib_wrapper/rpclib/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="AirLib">
+         <Option output="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/output/lib/libAirLib.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/AirLib" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/AirLib" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/AirLib/deps/eigen3" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/AirLib/include" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/include" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/AirLib/Makefile&quot;  VERBOSE=1 AirLib" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/AirLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/AirLib/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/AirLib/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="AirLib/fast">
+         <Option output="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/output/lib/libAirLib.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/AirLib" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/AirLib" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/AirLib/deps/eigen3" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/AirLib/include" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/include" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/AirLib/Makefile&quot;  VERBOSE=1 AirLib/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/AirLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/AirLib/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/AirLib/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="MavLinkCom">
+         <Option output="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/output/lib/libMavLinkCom.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/MavLinkCom" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/common_utils" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/MavLinkCom/Makefile&quot;  VERBOSE=1 MavLinkCom" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/MavLinkCom/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/MavLinkCom/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/MavLinkCom/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="MavLinkCom/fast">
+         <Option output="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/output/lib/libMavLinkCom.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/MavLinkCom" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/common_utils" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/MavLinkCom/Makefile&quot;  VERBOSE=1 MavLinkCom/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/MavLinkCom/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/MavLinkCom/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/MavLinkCom/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="MavLinkTest">
+         <Option output="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/output/bin/MavLinkTest" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/output/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/MavLinkTest" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/common_utils" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/MavLinkCom/MavLinkTest/Makefile&quot;  VERBOSE=1 MavLinkTest" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/MavLinkCom/MavLinkTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/MavLinkCom/MavLinkTest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/MavLinkCom/MavLinkTest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="MavLinkTest/fast">
+         <Option output="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/output/bin/MavLinkTest" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/output/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/MavLinkTest" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/common_utils" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/MavLinkCom/MavLinkTest/Makefile&quot;  VERBOSE=1 MavLinkTest/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/MavLinkCom/MavLinkTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/MavLinkCom/MavLinkTest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/MavLinkCom/MavLinkTest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="AirLibUnitTests">
+         <Option output="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/output/bin/AirLibUnitTests" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/output/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/AirLib/deps/eigen3" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/AirLib/include" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/AirLibUnitTests" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/AirLibUnitTests/Makefile&quot;  VERBOSE=1 AirLibUnitTests" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/AirLibUnitTests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/AirLibUnitTests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/AirLibUnitTests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="AirLibUnitTests/fast">
+         <Option output="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/output/bin/AirLibUnitTests" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/output/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/AirLib/deps/eigen3" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/AirLib/include" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/AirLibUnitTests" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/AirLibUnitTests/Makefile&quot;  VERBOSE=1 AirLibUnitTests/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/AirLibUnitTests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/AirLibUnitTests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/AirLibUnitTests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="HelloDrone">
+         <Option output="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/output/bin/HelloDrone" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/output/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/AirLib/deps/eigen3" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/AirLib/include" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/HelloDrone" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/common_utils" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/include" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/HelloDrone/Makefile&quot;  VERBOSE=1 HelloDrone" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/HelloDrone/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/HelloDrone/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/HelloDrone/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="HelloDrone/fast">
+         <Option output="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/output/bin/HelloDrone" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/output/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/AirLib/deps/eigen3" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/AirLib/include" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/HelloDrone" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/common_utils" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/include" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/HelloDrone/Makefile&quot;  VERBOSE=1 HelloDrone/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/HelloDrone/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/HelloDrone/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/HelloDrone/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="DroneShell">
+         <Option output="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/output/bin/DroneShell" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/output/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/AirLib/deps/eigen3" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/AirLib/include" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/DroneShell" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/DroneShell/include" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/include" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/DroneShell/Makefile&quot;  VERBOSE=1 DroneShell" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/DroneShell/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/DroneShell/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/DroneShell/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="DroneShell/fast">
+         <Option output="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/output/bin/DroneShell" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/output/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/AirLib/deps/eigen3" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/AirLib/include" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/DroneShell" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/DroneShell/include" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/include" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/DroneShell/Makefile&quot;  VERBOSE=1 DroneShell/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/DroneShell/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/DroneShell/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/DroneShell/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="DroneServer">
+         <Option output="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/output/bin/DroneServer" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/output/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/AirLib/deps/eigen3" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/AirLib/include" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/DroneServer" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/include" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/DroneServer/Makefile&quot;  VERBOSE=1 DroneServer" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/DroneServer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/DroneServer/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/DroneServer/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="DroneServer/fast">
+         <Option output="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/output/bin/DroneServer" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/output/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/AirLib/deps/eigen3" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/AirLib/include" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/DroneServer" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/include" />
+            <Add directory="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/DroneServer/Makefile&quot;  VERBOSE=1 DroneServer/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/DroneServer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/DroneServer/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yunzhongke/yunzhongke/QtPro/AirSim/qt_build/DroneServer/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/AirLib/src/api/RpcLibClient.cpp">
+         <Option target="AirLib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/AirLib/src/api/RpcLibServer.cpp">
+         <Option target="AirLib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/AirLib/src/controllers/DroneControllerBase.cpp">
+         <Option target="AirLib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/AirLib/src/controllers/FileSystem.cpp">
+         <Option target="AirLib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/AirLib/src/safety/ObstacleMap.cpp">
+         <Option target="AirLib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/AirLib/src/safety/SafetyEval.cpp">
+         <Option target="AirLib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/AirLibUnitTests/main.cpp">
+         <Option target="AirLibUnitTests"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/DroneServer/main.cpp">
+         <Option target="DroneServer"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/DroneShell/src/main.cpp">
+         <Option target="DroneShell"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/HelloDrone/main.cpp">
+         <Option target="HelloDrone"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/MavLinkTest/Commands.cpp">
+         <Option target="MavLinkTest"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/MavLinkTest/Commands.h">
+         <Option target="MavLinkTest"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/MavLinkTest/UnitTests.cpp">
+         <Option target="MavLinkTest"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/MavLinkTest/UnitTests.h">
+         <Option target="MavLinkTest"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/MavLinkTest/main.cpp">
+         <Option target="MavLinkTest"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/common_utils/FileSystem.cpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/common_utils/FileSystem.hpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/common_utils/ThreadUtils.cpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/common_utils/ThreadUtils.hpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/src/MavLinkConnection.cpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/src/MavLinkFtpClient.cpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/src/MavLinkLog.cpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/src/MavLinkMessageBase.cpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/src/MavLinkMessages.cpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/src/MavLinkNode.cpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/src/MavLinkTcpServer.cpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/src/MavLinkVehicle.cpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/src/MavLinkVideoStream.cpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/src/Semaphore.cpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/src/impl/MavLinkConnectionImpl.cpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/src/impl/MavLinkConnectionImpl.hpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/src/impl/MavLinkFtpClientImpl.cpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/src/impl/MavLinkFtpClientImpl.hpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/src/impl/MavLinkNodeImpl.cpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/src/impl/MavLinkNodeImpl.hpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/src/impl/MavLinkTcpServerImpl.cpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/src/impl/MavLinkTcpServerImpl.hpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/src/impl/MavLinkVehicleImpl.cpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/src/impl/MavLinkVehicleImpl.hpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/src/impl/MavLinkVideoStreamImpl.cpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/src/impl/MavLinkVideoStreamImpl.hpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/src/impl/linux/MavLinkFindSerialPorts.cpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/src/serial_com/SerialPort.cpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/src/serial_com/SerialPort.hpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/src/serial_com/SocketInit.cpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/src/serial_com/SocketInit.hpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/src/serial_com/TcpClientPort.cpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/src/serial_com/TcpClientPort.hpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/src/serial_com/UdpClientPort.cpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/src/serial_com/UdpClientPort.hpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/src/serial_com/wifi.cpp">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/MavLinkCom/src/serial_com/wifi.h">
+         <Option target="MavLinkCom"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/async_result.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/basic_datagram_socket.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/basic_deadline_timer.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/basic_io_object.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/basic_raw_socket.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/basic_seq_packet_socket.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/basic_serial_port.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/basic_signal_set.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/basic_socket.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/basic_socket_acceptor.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/basic_socket_iostream.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/basic_socket_streambuf.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/basic_stream_socket.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/basic_streambuf.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/basic_streambuf_fwd.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/basic_waitable_timer.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/buffer.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/buffered_read_stream.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/buffered_read_stream_fwd.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/buffered_stream.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/buffered_stream_fwd.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/buffered_write_stream.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/buffered_write_stream_fwd.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/buffers_iterator.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/completion_condition.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/connect.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/coroutine.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/datagram_socket_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/deadline_timer.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/deadline_timer_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/addressof.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/array.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/array_fwd.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/assert.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/atomic_count.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/base_from_completion_cond.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/bind_handler.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/buffer_resize_guard.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/buffer_sequence_adapter.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/buffered_stream_storage.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/call_stack.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/chrono_time_traits.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/completion_handler.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/config.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/consuming_buffers.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/cstdint.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/date_time_fwd.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/deadline_timer_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/dependent_type.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/descriptor_ops.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/descriptor_read_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/descriptor_write_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/dev_poll_reactor.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/epoll_reactor.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/event.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/eventfd_select_interrupter.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/fd_set_adapter.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/fenced_block.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/function.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/gcc_arm_fenced_block.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/gcc_hppa_fenced_block.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/gcc_sync_fenced_block.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/gcc_x86_fenced_block.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/handler_alloc_helpers.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/handler_cont_helpers.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/handler_invoke_helpers.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/handler_tracking.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/handler_type_requirements.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/hash_map.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/impl/dev_poll_reactor.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/impl/epoll_reactor.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/impl/kqueue_reactor.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/impl/select_reactor.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/impl/service_registry.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/impl/strand_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/impl/task_io_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/impl/win_iocp_io_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/impl/winrt_timer_scheduler.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/io_control.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/keyword_tss_ptr.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/kqueue_reactor.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/limits.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/local_free_on_block_exit.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/macos_fenced_block.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/mutex.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/noncopyable.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/null_event.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/null_fenced_block.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/null_mutex.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/null_reactor.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/null_signal_blocker.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/null_socket_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/null_static_mutex.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/null_thread.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/null_tss_ptr.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/object_pool.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/old_win_sdk_compat.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/op_queue.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/operation.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/pipe_select_interrupter.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/pop_options.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/posix_event.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/posix_fd_set_adapter.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/posix_mutex.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/posix_signal_blocker.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/posix_static_mutex.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/posix_thread.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/posix_tss_ptr.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/push_options.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/reactive_descriptor_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/reactive_null_buffers_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/reactive_serial_port_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/reactive_socket_accept_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/reactive_socket_connect_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/reactive_socket_recv_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/reactive_socket_recvfrom_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/reactive_socket_recvmsg_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/reactive_socket_send_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/reactive_socket_sendto_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/reactive_socket_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/reactive_socket_service_base.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/reactor.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/reactor_fwd.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/reactor_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/reactor_op_queue.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/regex_fwd.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/resolve_endpoint_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/resolve_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/resolver_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/resolver_service_base.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/scoped_lock.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/scoped_ptr.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/select_interrupter.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/select_reactor.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/service_registry.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/shared_ptr.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/signal_blocker.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/signal_handler.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/signal_init.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/signal_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/signal_set_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/socket_holder.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/socket_ops.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/socket_option.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/socket_select_interrupter.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/socket_types.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/solaris_fenced_block.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/static_mutex.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/std_event.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/std_mutex.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/std_static_mutex.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/std_thread.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/strand_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/task_io_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/task_io_service_operation.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/task_io_service_thread_info.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/thread.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/thread_info_base.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/throw_error.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/throw_exception.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/timer_queue.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/timer_queue_base.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/timer_queue_ptime.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/timer_queue_set.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/timer_scheduler.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/timer_scheduler_fwd.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/tss_ptr.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/type_traits.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/variadic_templates.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/wait_handler.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/wait_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/weak_ptr.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/win_event.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/win_fd_set_adapter.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/win_fenced_block.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/win_iocp_handle_read_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/win_iocp_handle_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/win_iocp_handle_write_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/win_iocp_io_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/win_iocp_null_buffers_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/win_iocp_operation.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/win_iocp_overlapped_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/win_iocp_overlapped_ptr.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/win_iocp_serial_port_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/win_iocp_socket_accept_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/win_iocp_socket_connect_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/win_iocp_socket_recv_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/win_iocp_socket_recvfrom_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/win_iocp_socket_recvmsg_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/win_iocp_socket_send_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/win_iocp_socket_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/win_iocp_socket_service_base.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/win_iocp_thread_info.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/win_mutex.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/win_object_handle_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/win_static_mutex.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/win_thread.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/win_tss_ptr.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/wince_thread.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/winrt_async_manager.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/winrt_async_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/winrt_resolve_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/winrt_resolver_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/winrt_socket_connect_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/winrt_socket_recv_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/winrt_socket_send_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/winrt_ssocket_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/winrt_ssocket_service_base.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/winrt_timer_scheduler.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/winrt_utils.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/winsock_init.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/detail/wrapped_handler.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/error.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/error_code.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/generic/basic_endpoint.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/generic/datagram_protocol.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/generic/detail/endpoint.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/generic/raw_protocol.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/generic/seq_packet_protocol.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/generic/stream_protocol.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/handler_alloc_hook.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/handler_continuation_hook.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/handler_invoke_hook.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/handler_type.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/high_resolution_timer.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/impl/buffered_read_stream.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/impl/buffered_write_stream.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/impl/connect.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/impl/io_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/impl/read.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/impl/read_at.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/impl/read_until.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/impl/serial_port_base.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/impl/spawn.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/impl/src.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/impl/use_future.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/impl/write.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/impl/write_at.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/io_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ip/address.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ip/address_v4.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ip/address_v6.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ip/basic_endpoint.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ip/basic_resolver.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ip/basic_resolver_entry.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ip/basic_resolver_iterator.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ip/basic_resolver_query.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ip/detail/endpoint.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ip/detail/socket_option.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ip/host_name.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ip/icmp.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ip/impl/address.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ip/impl/address_v4.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ip/impl/address_v6.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ip/impl/basic_endpoint.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ip/multicast.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ip/resolver_query_base.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ip/resolver_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ip/tcp.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ip/udp.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ip/unicast.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ip/v6_only.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/is_read_buffered.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/is_write_buffered.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/local/basic_endpoint.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/local/connect_pair.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/local/datagram_protocol.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/local/detail/endpoint.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/local/stream_protocol.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/placeholders.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/posix/basic_descriptor.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/posix/basic_stream_descriptor.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/posix/descriptor_base.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/posix/stream_descriptor.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/posix/stream_descriptor_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/raw_socket_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/read.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/read_at.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/read_until.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/seq_packet_socket_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/serial_port.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/serial_port_base.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/serial_port_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/signal_set.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/signal_set_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/socket_acceptor_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/socket_base.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/spawn.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ssl.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ssl/basic_context.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ssl/context.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ssl/context_base.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ssl/context_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ssl/detail/buffered_handshake_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ssl/detail/engine.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ssl/detail/handshake_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ssl/detail/io.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ssl/detail/openssl_init.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ssl/detail/openssl_types.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ssl/detail/password_callback.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ssl/detail/read_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ssl/detail/shutdown_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ssl/detail/stream_core.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ssl/detail/verify_callback.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ssl/detail/write_op.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ssl/error.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ssl/impl/context.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ssl/impl/src.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ssl/old/basic_context.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ssl/old/context_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ssl/old/detail/openssl_context_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ssl/old/detail/openssl_operation.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ssl/old/detail/openssl_stream_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ssl/old/stream.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ssl/old/stream_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ssl/rfc2818_verification.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ssl/stream.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ssl/stream_base.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ssl/stream_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ssl/verify_context.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/ssl/verify_mode.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/steady_timer.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/strand.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/stream_socket_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/streambuf.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/system_error.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/system_timer.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/thread.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/time_traits.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/unyield.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/use_future.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/version.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/wait_traits.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/waitable_timer_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/windows/basic_handle.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/windows/basic_object_handle.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/windows/basic_random_access_handle.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/windows/basic_stream_handle.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/windows/object_handle.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/windows/object_handle_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/windows/overlapped_ptr.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/windows/random_access_handle.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/windows/random_access_handle_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/windows/stream_handle.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/windows/stream_handle_service.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/write.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/write_at.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/asio/yield.hpp">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/format.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/gmock/gmock.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/gtest/gtest.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/include/posix.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/src/format.cc">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/dependencies/src/posix.cc">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/client.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/compatibility.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/config.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/detail/all.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/detail/any.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/detail/async_writer.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/detail/bool.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/detail/call.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/detail/client_error.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/detail/constant.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/detail/dev_utils.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/detail/func_tools.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/detail/func_traits.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/detail/if.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/detail/invoke.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/detail/is_specialization_of.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/detail/log.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/detail/make_unique.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/detail/not.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/detail/pimpl.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/detail/response.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/detail/server_session.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/detail/thread_group.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/detail/util.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/dispatcher.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/fbuffer.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/gcc_atomic.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/object.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/pack.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/pack_define.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/pack_template.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/architecture.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/architecture/alpha.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/architecture/arm.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/architecture/blackfin.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/architecture/convex.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/architecture/ia64.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/architecture/m68k.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/architecture/mips.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/architecture/parisc.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/architecture/ppc.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/architecture/pyramid.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/architecture/rs6k.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/architecture/sparc.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/architecture/superh.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/architecture/sys370.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/architecture/sys390.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/architecture/x86.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/architecture/x86/32.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/architecture/x86/64.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/architecture/z.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/compiler.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/compiler/borland.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/compiler/clang.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/compiler/comeau.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/compiler/compaq.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/compiler/diab.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/compiler/digitalmars.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/compiler/dignus.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/compiler/edg.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/compiler/ekopath.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/compiler/gcc.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/compiler/gcc_xml.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/compiler/greenhills.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/compiler/hp_acc.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/compiler/iar.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/compiler/ibm.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/compiler/intel.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/compiler/kai.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/compiler/llvm.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/compiler/metaware.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/compiler/metrowerks.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/compiler/microtec.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/compiler/mpw.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/compiler/palm.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/compiler/pgi.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/compiler/sgi_mipspro.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/compiler/sunpro.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/compiler/tendra.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/compiler/visualc.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/compiler/watcom.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/detail/_cassert.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/detail/_exception.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/detail/comp_detected.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/detail/endian_compat.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/detail/os_detected.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/detail/platform_detected.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/detail/test.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/language.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/language/objc.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/language/stdc.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/language/stdcpp.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/library.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/library/c.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/library/c/_prefix.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/library/c/gnu.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/library/c/uc.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/library/c/vms.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/library/c/zos.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/library/std.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/library/std/_prefix.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/library/std/cxx.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/library/std/dinkumware.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/library/std/libcomo.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/library/std/modena.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/library/std/msl.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/library/std/roguewave.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/library/std/sgi.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/library/std/stdcpp3.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/library/std/stlport.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/library/std/vacpp.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/make.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/os.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/os/aix.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/os/amigaos.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/os/android.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/os/beos.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/os/bsd.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/os/bsd/bsdi.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/os/bsd/dragonfly.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/os/bsd/free.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/os/bsd/net.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/os/bsd/open.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/os/cygwin.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/os/haiku.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/os/hpux.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/os/ios.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/os/irix.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/os/linux.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/os/macos.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/os/os400.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/os/qnxnto.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/os/solaris.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/os/unix.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/os/vms.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/os/windows.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/other.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/other/endian.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/platform.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/platform/mingw.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/platform/windows_desktop.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/platform/windows_phone.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/platform/windows_runtime.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/platform/windows_store.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/version.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/predef/version_number.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/sbuffer.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/sysdep.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/unpack.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/unpack_define.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/unpack_template.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/util.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/version.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/version_master.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/vrefbuffer.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/zbuffer.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/msgpack/zone.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/rpc_error.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/server.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/this_handler.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/this_server.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/this_session.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/include/rpc/version.h">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/lib/rpc/client.cc">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/lib/rpc/detail/client_error.cc">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/lib/rpc/detail/response.cc">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/lib/rpc/detail/server_session.cc">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/lib/rpc/dispatcher.cc">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/lib/rpc/rpc_error.cc">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/lib/rpc/server.cc">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/lib/rpc/this_handler.cc">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/lib/rpc/this_server.cc">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/external/rpclib/lib/rpc/this_session.cc">
+         <Option target="AirSim-rpclib"/>
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/AirLib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\AirLib\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/AirLib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\AirLib\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/cmake-modules/CommonSetup.cmake">
+          <Option virtualFolder="CMake Files\cmake-modules\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/cmake-modules/CommonSetup.cmake">
+          <Option virtualFolder="CMake Files\cmake-modules\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/cmake-modules/CommonSetup.cmake">
+          <Option virtualFolder="CMake Files\cmake-modules\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/cmake-modules/CommonSetup.cmake">
+          <Option virtualFolder="CMake Files\cmake-modules\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/cmake-modules/CommonSetup.cmake">
+          <Option virtualFolder="CMake Files\cmake-modules\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/cmake-modules/CommonSetup.cmake">
+          <Option virtualFolder="CMake Files\cmake-modules\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/cmake-modules/CommonSetup.cmake">
+          <Option virtualFolder="CMake Files\cmake-modules\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/cmake-modules/CommonSetup.cmake">
+          <Option virtualFolder="CMake Files\cmake-modules\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/cmake-modules/CommonSetup.cmake">
+          <Option virtualFolder="CMake Files\cmake-modules\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/cmake-modules/CommonSetup.cmake">
+          <Option virtualFolder="CMake Files\cmake-modules\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/cmake-modules/CommonSetup.cmake">
+          <Option virtualFolder="CMake Files\cmake-modules\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/cmake-modules/CommonSetup.cmake">
+          <Option virtualFolder="CMake Files\cmake-modules\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/cmake-modules/CommonSetup.cmake">
+          <Option virtualFolder="CMake Files\cmake-modules\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/cmake-modules/CommonSetup.cmake">
+          <Option virtualFolder="CMake Files\cmake-modules\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/cmake-modules/CommonSetup.cmake">
+          <Option virtualFolder="CMake Files\cmake-modules\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/cmake-modules/CommonSetup.cmake">
+          <Option virtualFolder="CMake Files\cmake-modules\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/cmake-modules/CommonSetup.cmake">
+          <Option virtualFolder="CMake Files\cmake-modules\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/AirLibUnitTests/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\AirLibUnitTests\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/AirLibUnitTests/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\AirLibUnitTests\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/rpclib_wrapper/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rpclib_wrapper\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/rpclib_wrapper/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\rpclib_wrapper\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/../external/rpclib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\external\rpclib\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/../external/rpclib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\external\rpclib\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/../external/rpclib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\external\rpclib\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/../external/rpclib/cmake/TargetArch.cmake">
+          <Option virtualFolder="CMake Files\..\external\rpclib\cmake\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/../external/rpclib/cmake/TargetArch.cmake">
+          <Option virtualFolder="CMake Files\..\external\rpclib\cmake\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/../external/rpclib/cmake/TargetArch.cmake">
+          <Option virtualFolder="CMake Files\..\external\rpclib\cmake\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/../external/rpclib/include/rpc/version.h.in">
+          <Option virtualFolder="CMake Files\..\external\rpclib\include\rpc\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/../external/rpclib/include/rpc/config.h.in">
+          <Option virtualFolder="CMake Files\..\external\rpclib\include\rpc\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/../external/rpclib/include/rpc/version.h.in">
+          <Option virtualFolder="CMake Files\..\external\rpclib\include\rpc\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/../external/rpclib/include/rpc/config.h.in">
+          <Option virtualFolder="CMake Files\..\external\rpclib\include\rpc\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/../external/rpclib/include/rpc/version.h.in">
+          <Option virtualFolder="CMake Files\..\external\rpclib\include\rpc\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/../external/rpclib/include/rpc/config.h.in">
+          <Option virtualFolder="CMake Files\..\external\rpclib\include\rpc\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/../external/rpclib/doc/pages/versions.md.in">
+          <Option virtualFolder="CMake Files\..\external\rpclib\doc\pages\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/../external/rpclib/doc/pages/versions.md.in">
+          <Option virtualFolder="CMake Files\..\external\rpclib\doc\pages\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/../external/rpclib/doc/pages/versions.md.in">
+          <Option virtualFolder="CMake Files\..\external\rpclib\doc\pages\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/../qt_build/arch.c">
+          <Option virtualFolder="CMake Files\..\qt_build\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/../qt_build/arch.c">
+          <Option virtualFolder="CMake Files\..\qt_build\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/../qt_build/arch.c">
+          <Option virtualFolder="CMake Files\..\qt_build\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/MavLinkCom/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\MavLinkCom\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/MavLinkCom/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\MavLinkCom\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/MavLinkCom/MavLinkTest/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\MavLinkCom\MavLinkTest\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/MavLinkCom/MavLinkTest/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\MavLinkCom\MavLinkTest\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/MavLinkCom/MavLinkTest/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\MavLinkCom\MavLinkTest\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/HelloDrone/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\HelloDrone\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/HelloDrone/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\HelloDrone\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/DroneShell/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\DroneShell\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/DroneShell/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\DroneShell\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/DroneServer/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\DroneServer\" />
+      </Unit>
+      <Unit filename="/home/yunzhongke/yunzhongke/QtPro/AirSim/cmake/DroneServer/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\DroneServer\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
