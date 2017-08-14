@@ -89,9 +89,11 @@ int main()
         client.moveByVelocityZ(0, -speed, z, duration, driveTrain, yaw_mode);
         std::this_thread::sleep_for(std::chrono::duration<double>(duration));
 
-        client.hover();
+        client.setOffboardMode(false);
         std::this_thread::sleep_for(std::chrono::duration<double>(1));
-        client.moveToZ(z * 10.0f , 1.0f , 10 , yaw_mode);
+
+        std::cout << "moveToZ finish .. "  << std::endl;
+        client.hover();
 
         std::cout << "Press Enter to land" << std::endl; std::cin.get();
         client.land(10);

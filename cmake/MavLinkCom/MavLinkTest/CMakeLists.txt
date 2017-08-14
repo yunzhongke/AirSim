@@ -14,7 +14,8 @@ include_directories(
 )
 
     set(PROJECT_CPP ${PROJECT_NAME}_sources)
+    set(LIBCABI "-L ${LIBCXX_LIB_PATH} -lc++abi")
     file(GLOB_RECURSE PROJECT_CPP "${AIRSIM_ROOT}/MavLinkCom/${PROJECT_NAME}/*.cpp")
     add_executable(${PROJECT_NAME} ${PROJECT_CPP})
 			
-target_link_libraries(${PROJECT_NAME} ${CMAKE_THREAD_LIBS_INIT} MavLinkCom c++abi ${CXX_EXP_LIB})
+target_link_libraries(${PROJECT_NAME} ${CMAKE_THREAD_LIBS_INIT} MavLinkCom ${LIBCABI} ${CXX_EXP_LIB})

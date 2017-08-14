@@ -470,6 +470,7 @@ AsyncResult<bool> MavLinkVehicleImpl::armDisarm(bool arm)
 {
     MavCmdComponentArmDisarm cmd{};
     cmd.p1ToArm = arm ? 1.0f : 0.0f;
+    Utils::log(Utils::stringf("arm p1ToArm : %f" , cmd.p1ToArm));
     return sendCommandAndWaitForAck(cmd);
 }
 
@@ -478,7 +479,7 @@ AsyncResult<bool> MavLinkVehicleImpl::takeoff(float z, float pitch, float yaw)
     // careful here, we are doing a tricky conversion from local coordinates to global coordinates.
     float deltaZ = z - vehicle_state_.local_est.pos.z;
     float targetAlt = vehicle_state_.home.global_pos.alt - deltaZ;
-    Utils::log(Utils::stringf("Take off to %f", targetAlt));
+    Utils::log(Utils::stringf("Take off to targetAlt:%f , deltaZ:%f", targetAlt , deltaZ));
     MavCmdNavTakeoff cmd{};
     cmd.MinimumPitch = pitch;
     cmd.YawAngle = yaw;
